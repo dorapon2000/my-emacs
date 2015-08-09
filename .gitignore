@@ -1,0 +1,11 @@
+*.elc
+abbrev_defs
+auto-save-list
+byte-compile.sh
+elpa
+recentf
+auto-install
+backup
+elisp
+elscreen
+tramp
