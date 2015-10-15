@@ -54,6 +54,9 @@
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (set-clipboard-coding-system 'utf-8)
+;(prefer-coding-system 'utf-8)
+(setq coding-system-for-read 'utf-8)
+(setq coding-system-for-write 'utf-8)
 
 ;; cモードはlinuxのスタイル
 (setq c-default-style "linux")
