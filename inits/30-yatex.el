@@ -11,3 +11,7 @@
   '(("[agx]dvi\\|dviout\\|emacsclient" . ".dvi")
    ("ghostview\\|gv" . ".ps")
    ("acroread\\|pdf\\|Preview\\|TeXShop\\|Skim\\|evince\\|apvlv\\|open" . ".pdf")))
+
+(add-hook ' yatex-mode-hook
+	    '(lambda () (auto-fill-mode -1)))
+
