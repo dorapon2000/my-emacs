@@ -16,7 +16,6 @@
     helm
     helm-migemo
     migemo
-    shell-customize
     shell-pop
     multi-term
     recentf

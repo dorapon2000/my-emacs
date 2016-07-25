@@ -1,3 +1,9 @@
+;;; 10-shell-customize.el
+;;; emacs上でシェルを使用するときの設定
+;;; shell-customizeというパッケージがあるわけではない
+;;;
+;;; http://sakito.jp/emacs/emacsshell.html
+
 ;; より下に記述した物が PATH の先頭に追加されます
 (dolist (dir (list
 	      "/sbin"
@@ -18,6 +24,7 @@
 (setenv "MANPATH" (concat "/usr/local/man:/usr/share/man:/Developer/usr/share/man:/sw/share/man" (getenv "MANPATH")))
 
 ;; shell の存在を確認
+;; zsh bashの順に存在を確認できたものを使う
 (defun skt:shell ()
   (or (executable-find "zsh")
       (executable-find "bash")
@@ -31,6 +38,7 @@
 (setenv "SHELL" shell-file-name)
 (setq explicit-shell-file-name shell-file-name)
 
+;; シェル上の文字コード
 (set-language-environment  'utf-8)
 (prefer-coding-system 'utf-8)
 
@@ -57,6 +65,7 @@
 ;; Emacs が保持する terminfo を利用する
 (setq system-uses-terminfo nil)
 
+;; エスケープ文字を綺麗にする
 (autoload 'ansi-color-for-comint-mode-on "ansi-color" nil t)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 
