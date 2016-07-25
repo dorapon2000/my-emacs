@@ -16,11 +16,11 @@
     helm
     helm-migemo
     migemo
+    shell-customize
+    shell-pop
     multi-term
     recentf
     save-visited-files
-    shell-customize
-    shell-pop
     smooth-scroll
     tramp
     tree-undo
