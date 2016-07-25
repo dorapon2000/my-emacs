@@ -22,7 +22,7 @@
     save-visited-files
     smooth-scroll
     tramp
-    tree-undo
+    undo-tree
     auto-complete
     hlinum
     rainbow-mode
