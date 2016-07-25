@@ -1,5 +1,6 @@
 ;;; 10-migemo.el
 ;;; いくつ検索されたかを表示してくれるやつには日本語は表示されない。
+;;; http://qiita.com/catatsuy/items/c5fa34ead92d496b8a51
 
 (when (and (executable-find "cmigemo")
 	   (require 'migemo nil t))
