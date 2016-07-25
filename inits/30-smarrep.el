@@ -1,4 +1,4 @@
-;;;30-smarrep.el
+;;;30-smartrep.el
 ;;バッファの幅を調整
 
 (require 'smartrep)

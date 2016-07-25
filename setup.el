@@ -28,7 +28,7 @@
     rainbow-mode
     viewer
     quickrun
-    amarrep
+    smartrep
     )
   "起動時に自動的にインストールされるパッケージのリスト")
 
