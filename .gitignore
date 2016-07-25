@@ -26,6 +26,9 @@ elscreen
 # recentf-mode
 recentf
 
+# save-visited-files
+emacs-visited-files
+
 # abbrev-mode
 abbrev_defs
 
