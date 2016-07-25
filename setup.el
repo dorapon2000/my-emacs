@@ -7,7 +7,29 @@
 
 (defvar my/favorite-packages
   '(
-    php-mode
+    anzu
+    color-theme
+    elscreen-persist
+    elscreen-separate-buffer-list
+    elscreen
+    flycheck
+    helm
+    helm-migemo
+    migemo
+    multi-term
+    recentf
+    save-visited-files
+    shell-customize
+    shell-pop
+    smooth-scroll
+    tramp
+    tree-undo
+    auto-complete
+    hlinum
+    rainbow-mode
+    viewer
+    quickrun
+    amarrep
     )
   "起動時に自動的にインストールされるパッケージのリスト")
 
