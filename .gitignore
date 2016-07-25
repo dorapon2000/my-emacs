@@ -29,6 +29,9 @@ recentf
 # save-visited-files
 emacs-visited-files
 
+# autocomplete-mode
+ac-comphist.dat
+
 # abbrev-mode
 abbrev_defs
 
