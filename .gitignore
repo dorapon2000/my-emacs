@@ -1,11 +1,60 @@
+### https://raw.github.com/github/gitignore/fe7a6d23f30dfe147815c3d9b53b044ab50eb428/Global/emacs.gitignore
+
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
 *.elc
-abbrev_defs
 auto-save-list
-byte-compile.sh
-elpa
-recentf
-auto-install
-backup
-elisp
-elscreen
 tramp
+.\#*
+backup
+auto-save-list
+auto-install
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# elscreen-mode
+elscreen
+
+# recentf-mode
+recentf
+
+# abbrev-mode
+abbrev_defs
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# elisp packages
+/elisp/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
