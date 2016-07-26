@@ -3,11 +3,13 @@
 ;; 指定行にジャンプする
 (global-set-key (kbd "C-x j") 'goto-line)
 ;; 行番号表示切り替え
+;; http://qiita.com/takc923/items/acebbdae04994de16c6d
+(require 'linum)
 (global-set-key (kbd "<f6>") 'linum-mode)
-(setq linum-format "%3d: ")
+(setq linum-format "%4d ")
 (setq linum-delay t)
 (defadvice linum-schedule (around my-linum-schedule () activate)
-    (run-with-idle-timer 0.2 nil #'linum-update-current))
+  (run-with-idle-timer 0.2 nil #'linum-update-current))
 ;; "yes or no"を"y or n"に
 (fset 'yes-or-no-p 'y-or-n-p)
 ;;括弧の自動補完
