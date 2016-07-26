@@ -35,6 +35,9 @@ ac-comphist.dat
 # abbrev-mode
 abbrev_defs
 
+# auto-async-byte-compile
+/junk/
+
 # eshell files
 /eshell/history
 /eshell/lastdir
