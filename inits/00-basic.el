@@ -77,6 +77,7 @@
     (emacs-lisp-mode . "Elsp")
     (markdown-mode . "Md")))
 
+(require 'cl)
 (defun clean-mode-line ()
   (interactive)
   (loop for cleaner in mode-line-cleaner-alist
