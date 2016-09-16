@@ -1,4 +1,6 @@
-;;;10-elscreen.el
+;;; 10-elscreen.el
+;;
+ 
 
 (require 'elscreen)
 (elscreen-set-prefix-key "\C-z")
