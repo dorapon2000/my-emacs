@@ -27,7 +27,9 @@
 (global-set-key (kbd "C-c n") 'multi-term-next)
 (global-set-key (kbd "C-c p") 'multi-term-prev)
 
-
+;; 文字コード指定
+;; http://qiita.com/egg_chicken/items/682be005fcd4106bd9c0
+(setenv "LANG" "ja_JP.UTF-8")
 
 
 ;; コピーモード
