@@ -8,7 +8,6 @@
 (defvar my/favorite-packages
   '(
     anzu
-    color-theme
     elscreen-persist
     elscreen-separate-buffer-list
     elscreen
@@ -20,15 +19,10 @@
     multi-term
     recentf
     save-visited-files
-    smooth-scroll
-    tramp
     undo-tree
+    viewer
     auto-complete
     hlinum
-    rainbow-mode
-    viewer
-    quickrun
-    smartrep
     )
   "起動時に自動的にインストールされるパッケージのリスト")
 
