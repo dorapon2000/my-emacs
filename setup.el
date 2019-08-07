@@ -17,7 +17,7 @@
     migemo
     shell-pop
     multi-term
-    recentf
+    ;recentf
     save-visited-files
     undo-tree
     viewer
